@@ -115,7 +115,14 @@ h2 {
 }
 
 select {
-    height: 2.5rem; 
+    border:1px solid #ccc;
+    vertical-align:top;
+    height:2.2rem;
+}
+input, select{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 .size-selection, .quantity-selection {
@@ -175,26 +182,32 @@ select {
 .green-black {
     --circle-color: black;
     background: linear-gradient(to right, #989737 0%, #989737 50%, black 50%, black 100%);
+    border: 1px solid lightgray;
 }
 
 .blue-black {
     --circle-color: black;
     background: linear-gradient(to right, #578bd8 0%, #578bd8 50%, black 50%, black 100%);
+    border: 1px solid lightgray;
 }
 
 .pink-black {
     --circle-color: black;
     background: linear-gradient(to right, #d4668e 0%, #d4668e 50%, black 50%, black 100%);
+    border: 1px solid lightgray;
 }
 
 .red-white {
     --circle-color: #ce3329;
     background: linear-gradient(to right, #ce3329 0%, #ce3329 50%, white 50%, white 100%);
+    /* background: linear-gradient(0.25turn, red 50%, white 50%); */
+    border: 1px solid lightgray;
 }
 
 .black-white {
     --circle-color: black;
     background: linear-gradient(to right, black 50%, white 50%);
+    border: 1px solid lightgray;
 }
 
 .color {
